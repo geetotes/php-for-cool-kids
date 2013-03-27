@@ -4,6 +4,8 @@ require 'vendor/autoload.php';
 
 $app = new \Slim\Slim();
 
+
+
 $app->get('/', function(){
   //ok, def need to this out... ideally haml will be a renderer for slim
   $haml = new MtHaml\Environment('php');
