@@ -1,0 +1,8 @@
+{
+  "require": {
+    "slim/slim": "2.*",
+    "mthaml/mthaml": "dev-master",
+    "coffeescript/coffeescript": "dev-master",
+    "leafo/scssphp": "0.0.5"
+  }
+}

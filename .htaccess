@@ -1,0 +1,8 @@
+#This should go into your .htaccess (slow)
+#Or into a clause in your httpd.conf (faster)
+#
+#<Directory /var/www/php-for-cool-kids>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+#</Directory>
